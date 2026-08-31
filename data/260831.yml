@@ -1,0 +1,76 @@
+about:
+  description: Flutter makes it easy and fast to build beautiful apps for mobile and beyond
+  license: BSD-3-Clause
+  homepage: https://flutter.dev
+  head: 8932e22
+  archived: false
+  latestVersion: 3.19.0-0.1.pre
+  collectedAt: 2026-08-31T05:51:06Z
+timeline:
+  created: 2015-03-06
+  lastCommit: 2026-08-31
+  lastRelease: 2024-01-11
+popularity:
+  star: 178725
+  watcher: 3553
+  fork: 31029
+  release: 7
+  contributor: 2178
+  pullRequest: 25213
+  issue: 115394
+language:
+  Dart: 89052735
+  C++: 19146613
+  Objective-C++: 3231511
+  Java: 3213796
+  Objective-C: 727092
+  C: 676919
+  Kotlin: 604741
+  Go Template: 554961
+  Python: 523213
+  GLSL: 283971
+  Swift: 211123
+  CMake: 190594
+  Shell: 159074
+  JavaScript: 86950
+  Ruby: 52663
+  Batchfile: 27284
+  HTML: 22377
+  PowerShell: 17012
+  CSS: 6019
+  Lex: 2259
+  HLSL: 898
+totalLine: 118791805
+recent:
+  last30d:
+    since: 2026-08-01
+    release: 0
+    mergedPR: 544
+    openPR: 301
+    closedIssue: 212
+    openIssue: 303
+    commit: 550
+  last90d:
+    since: 2026-06-02
+    release: 0
+    mergedPR: 1430
+    openPR: 489
+    closedIssue: 845
+    openIssue: 717
+    commit: 1539
+  last180d:
+    since: 2026-03-04
+    release: 0
+    mergedPR: 2879
+    openPR: 617
+    closedIssue: 1866
+    openIssue: 1151
+    commit: 3084
+  last360d:
+    since: 2025-09-05
+    release: 0
+    mergedPR: 5717
+    openPR: 647
+    closedIssue: 4473
+    openIssue: 1792
+    commit: 6239
