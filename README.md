@@ -22,23 +22,22 @@ x install flutter
 
 - **Latest**: `3.19.0-0.1.pre` (2024-01-11)
 - **Last commit**: 2026-09-10
-- **Published**: 2024-01-11T18:31:57Z
 
 ## Popularity
 
-- **Stars**: 178,879 · **Forks**: 31,073 · **Open issues**: 115,546 · **Contributors**: 2,095
+- **Stars**: 178,883 · **Forks**: 31,077 · **Open issues**: 115,557 · **Contributors**: 2,095
 
 ## Totals (cumulative)
 
-- **Releases**: 7 · **Merged PRs**: 50104 · **Open PRs**: 554 · **Closed issues**: 102986 · **Open issues**: 12560 · **Commits**: 91458
+- **Releases**: 7 · **Merged PRs**: 50105 · **Open PRs**: 557 · **Closed issues**: 102992 · **Open issues**: 12565 · **Commits**: 91459
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 0 | 504 | 226 | 204 | 270 | 560 |
-| 90d | 2026-06-12 | 0 | 1459 | 404 | 831 | 705 | 1632 |
-| 360d | 2025-09-15 | 0 | 5781 | 551 | 4456 | 1798 | 6328 |
+| 30d | 2026-08-11 | 0 | 505 | 232 | 209 | 275 | 561 |
+| 90d | 2026-06-12 | 0 | 1460 | 410 | 836 | 710 | 1633 |
+| 360d | 2025-09-15 | 0 | 5782 | 554 | 4461 | 1803 | 6329 |
 
 ## Code size
 
@@ -67,8 +66,8 @@ Lowest-scoring checks:
 Install metadata for flutter lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `flutter` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/flutter.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/flutter.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T04:43:04Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T16:42:23Z._
