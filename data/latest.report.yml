@@ -2,12 +2,12 @@ about:
   description: "Flutter makes it easy and fast to build beautiful apps for mobile and beyond"
   license: BSD-3-Clause
   homepage: https://flutter.dev
-  head: 9fc84fa
+  head: d6a5c84
   archived: false
   latestVersion: "3.19.0-0.1.pre"
   latestRelease: "3.19.0-0.1.pre"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T20:56:33Z
+  collectedAt: 2026-09-10T22:47:32Z
 timeline:
   created: 2015-03-06
   lastCommit: 2026-09-10
@@ -15,15 +15,15 @@ timeline:
   lastRelease: 2024-01-11
   lastPrerelease: 
 popularity:
-  star: 178886
+  star: 178887
   watcher: 3552
-  fork: 31077
+  fork: 31078
   release: 7
   contributor: 2095
-  pullRequest: 75469
-  issue: 115588
+  pullRequest: 75474
+  issue: 115596
 language:
-  Dart: 89520830
+  Dart: 89523989
   C++: 19228110
   Objective-C++: 3242306
   Java: 3216180
@@ -44,71 +44,71 @@ language:
   CSS: 6019
   Lex: 2259
   HLSL: 898
-totalBytes: 119379952
+totalBytes: 119383111
 recent:
   last30d:
     since: 2026-08-11
     release: 0
-    mergedPR: 511
-    openPR: 230
-    closedIssue: 212
-    openIssue: 303
-    commit: 569
+    mergedPR: 514
+    openPR: 233
+    closedIssue: 216
+    openIssue: 307
+    commit: 571
   last60d:
     since: 2026-07-12
     release: 0
-    mergedPR: 1036
-    openPR: 345
-    closedIssue: 530
-    openIssue: 533
-    commit: 1146
+    mergedPR: 1039
+    openPR: 348
+    closedIssue: 534
+    openIssue: 537
+    commit: 1148
   last90d:
     since: 2026-06-12
     release: 0
-    mergedPR: 1467
-    openPR: 407
-    closedIssue: 840
-    openIssue: 737
-    commit: 1641
+    mergedPR: 1470
+    openPR: 410
+    closedIssue: 844
+    openIssue: 741
+    commit: 1643
   last180d:
     since: 2026-03-14
     release: 0
-    mergedPR: 2923
-    openPR: 520
-    closedIssue: 1857
-    openIssue: 1175
-    commit: 3178
+    mergedPR: 2926
+    openPR: 523
+    closedIssue: 1861
+    openIssue: 1179
+    commit: 3180
   last360d:
     since: 2025-09-15
     release: 0
-    mergedPR: 5789
-    openPR: 549
-    closedIssue: 4465
-    openIssue: 1830
-    commit: 6337
+    mergedPR: 5792
+    openPR: 552
+    closedIssue: 4469
+    openIssue: 1834
+    commit: 6339
   last720d:
     since: 2024-09-20
     release: 0
-    mergedPR: 11053
-    openPR: 552
-    closedIssue: 13509
-    openIssue: 3522
-    commit: 11594
+    mergedPR: 11056
+    openPR: 555
+    closedIssue: 13513
+    openIssue: 3526
+    commit: 11596
 total:
   release: 7
-  mergedPR: 50112
-  openPR: 552
-  closedIssue: 102997
+  mergedPR: 50115
+  openPR: 555
+  closedIssue: 103005
   openIssue: 12591
-  commit: 91466
+  commit: 91468
 ---
 path: /home/runner/.x-repo/github.com/flutter/flutter
-collectedAt: 2026-09-10T20:58:58Z
+collectedAt: 2026-09-10T22:49:10Z
 loc:
   Dart:
-    code: 1975267
-    comments: 332064
-    blanks: 276112
+    code: 1975334
+    comments: 332073
+    blanks: 276125
     files: 6610
   Cpp:
     code: 378313
@@ -281,9 +281,9 @@ loc:
     blanks: 175
     files: 106
 total:
-  code: 2681547
-  comments: 489008
-  blanks: 427606
+  code: 2681614
+  comments: 489017
+  blanks: 427619
   files: 13169
 ---
 date: "2024-08-16T02:30:56Z"
