@@ -1,3 +1,41 @@
+- repo: altsisyphus
+  srcname: flutter
+  binnames:
+    - flutter-common
+    - flutter-desktop
+    - flutter-desktop-debuginfo
+    - flutter-developer
+    - flutter-glfw
+    - flutter-glfw-debuginfo
+    - flutter-gtk
+    - flutter-gtk-debuginfo
+    - flutter-tool
+    - flutter-tool-developer
+  visiblename: flutter
+  version: 3.41.9
+  origversion: 3.41.9-alt1
+  status: outdated
+  summary: Flutter framework
+  maintainers:
+    - x1z53@altlinux.org
+  licenses:
+    - BSD-3-Clause
+  categories:
+    - Development/Other
+- repo: aur
+  srcname: flutter
+  binname: flutter
+  visiblename: flutter
+  version: 3.41.2
+  origversion: 3.41.2-3
+  status: outdated
+  summary: Flutter SDK component - full installation of development tool and runtime
+  maintainers:
+    - withthebraid@aur
+  licenses:
+    - BSD
+    - CCPL
+    - custom
 - repo: aur
   srcname: flutter
   binname: flutter-common
@@ -26,13 +64,6 @@
     - BSD
     - CCPL
     - custom
-- repo: homebrew_casks
-  srcname: flutter
-  visiblename: Flutter SDK
-  version: 3.47.3
-  origversion: null
-  status: newest
-  summary: UI toolkit for building applications for mobile, web and desktop
 - repo: aur
   srcname: flutter
   binname: flutter-tool
@@ -111,53 +142,6 @@
   origversion: 3.41.2-3
   status: outdated
   summary: Flutter SDK component - IntelliJ Flutter plugin hotfix
-  maintainers:
-    - withthebraid@aur
-  licenses:
-    - BSD
-    - CCPL
-    - custom
-- repo: chromebrew
-  srcname: flutter
-  visiblename: flutter
-  version: 3.47.2
-  origversion: null
-  status: outdated
-  summary: Flutter is Google's UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.
-  licenses:
-    - BSD-3
-- repo: altsisyphus
-  srcname: flutter
-  binnames:
-    - flutter-common
-    - flutter-desktop
-    - flutter-desktop-debuginfo
-    - flutter-developer
-    - flutter-glfw
-    - flutter-glfw-debuginfo
-    - flutter-gtk
-    - flutter-gtk-debuginfo
-    - flutter-tool
-    - flutter-tool-developer
-  visiblename: flutter
-  version: 3.41.9
-  origversion: 3.41.9-alt1
-  status: outdated
-  summary: Flutter framework
-  maintainers:
-    - x1z53@altlinux.org
-  licenses:
-    - BSD-3-Clause
-  categories:
-    - Development/Other
-- repo: aur
-  srcname: flutter
-  binname: flutter
-  visiblename: flutter
-  version: 3.41.2
-  origversion: 3.41.2-3
-  status: outdated
-  summary: Flutter SDK component - full installation of development tool and runtime
   maintainers:
     - withthebraid@aur
   licenses:
@@ -311,11 +295,27 @@
   origversion: null
   status: outdated
   summary: Build beautiful native apps in record time
+- repo: chromebrew
+  srcname: flutter
+  visiblename: flutter
+  version: 3.47.2
+  origversion: null
+  status: outdated
+  summary: Flutter is Google's UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.
+  licenses:
+    - BSD-3
+- repo: homebrew_casks
+  srcname: flutter
+  visiblename: Flutter SDK
+  version: 3.47.4
+  origversion: null
+  status: newest
+  summary: UI toolkit for building applications for mobile, web and desktop
 - repo: scoop
   subrepo: extras
   binname: flutter
   visiblename: flutter
-  version: 3.47.3
+  version: 3.47.4
   origversion: null
   status: newest
   licenses:
@@ -326,7 +326,7 @@
   visiblename: flutter
   version: 3.47.3
   origversion: 3.47.3-1.fcrawhide
-  status: newest
+  status: outdated
   summary: SDK for crafting beautiful, fast user experiences from a single codebase
   licenses:
     - BSD-3-Clause
@@ -338,7 +338,7 @@
   visiblename: flutter
   version: 3.47.3
   origversion: 3.47.3-1.fcrawhide
-  status: newest
+  status: outdated
   summary: SDK for crafting beautiful, fast user experiences from a single codebase
   licenses:
     - BSD-3-Clause
@@ -356,39 +356,26 @@
 - repo: alpine_edge
   subrepo: testing
   srcname: flutter
-  binname: flutter-common
-  visiblename: flutter-common
-  version: 3.38.4
-  origversion: 3.38.4-r3
-  status: outdated
-  summary: Cross-platform apps, built in Omelas (parts common to all targets)
-  maintainers:
-    - lauren@selfisekai.rocks
-  licenses:
-    - BSD-3-Clause
-  vulnerable: true
-- repo: terra_41
-  srcname: flutter
-  binname: flutter
-  visiblename: flutter
-  version: 3.35.7
-  origversion: 3.35.7-1.fc41
-  status: outdated
-  summary: SDK for crafting beautiful, fast user experiences from a single codebase
-  licenses:
-    - BSD-3-Clause
-  categories:
-    - Development/Building
-  vulnerable: true
-- repo: alpine_edge
-  subrepo: testing
-  srcname: flutter
   binname: flutter
   visiblename: flutter
   version: 3.38.4
   origversion: 3.38.4-r3
   status: outdated
   summary: Cross-platform apps, built in Omelas
+  maintainers:
+    - lauren@selfisekai.rocks
+  licenses:
+    - BSD-3-Clause
+  vulnerable: true
+- repo: alpine_edge
+  subrepo: testing
+  srcname: flutter
+  binname: flutter-common
+  visiblename: flutter-common
+  version: 3.38.4
+  origversion: 3.38.4-r3
+  status: outdated
+  summary: Cross-platform apps, built in Omelas (parts common to all targets)
   maintainers:
     - lauren@selfisekai.rocks
   licenses:
@@ -663,6 +650,19 @@
   visiblename: flutter
   version: 3.32.4
   origversion: 3.32.4-1.fc40
+  status: outdated
+  summary: SDK for crafting beautiful, fast user experiences from a single codebase
+  licenses:
+    - BSD-3-Clause
+  categories:
+    - Development/Building
+  vulnerable: true
+- repo: terra_41
+  srcname: flutter
+  binname: flutter
+  visiblename: flutter
+  version: 3.35.7
+  origversion: 3.35.7-1.fc41
   status: outdated
   summary: SDK for crafting beautiful, fast user experiences from a single codebase
   licenses:
