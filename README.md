@@ -43,26 +43,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `3.19.0-0.1.pre` (2024-01-11)
-- **Last commit**: 2026-09-19
+- **Last commit**: 2026-09-20
 
 ## Popularity
 
-- **Stars**: 179,014 · **Forks**: 31,712 · **Open issues**: 115,780 · **Contributors**: 2,100
+- **Stars**: 179,028 · **Forks**: 31,779 · **Open issues**: 115,790 · **Contributors**: 2,100
 
 ## Totals (cumulative)
 
-- **Releases**: 7 · **Merged PRs**: 50259 · **Open PRs**: 595 · **Closed issues**: 103130 · **Open issues**: 12650 · **Commits**: 91603
+- **Releases**: 7 · **Merged PRs**: 50260 · **Open PRs**: 600 · **Closed issues**: 103136 · **Open issues**: 12654 · **Commits**: 91604
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-21 | 0 | 421 | 269 | 195 | 328 | 400 |
-| last60d | 2026-07-22 | 0 | 1031 | 388 | 507 | 571 | 1113 |
-| 90d | 2026-06-22 | 0 | 1490 | 437 | 830 | 775 | 1578 |
-| last180d | 2026-03-24 | 0 | 2925 | 559 | 1863 | 1219 | 3079 |
-| 360d | 2025-09-25 | 0 | 5766 | 591 | 4379 | 1854 | 6267 |
-| last720d | 2024-09-30 | 0 | 11087 | 595 | 13376 | 3562 | 11501 |
+| 30d | 2026-08-22 | 0 | 413 | 267 | 197 | 331 | 401 |
+| last60d | 2026-07-23 | 0 | 1010 | 389 | 504 | 567 | 1114 |
+| 90d | 2026-06-23 | 0 | 1463 | 441 | 807 | 740 | 1579 |
+| last180d | 2026-03-25 | 0 | 2894 | 563 | 1856 | 1217 | 3080 |
+| 360d | 2025-09-26 | 0 | 5750 | 596 | 4360 | 1856 | 6268 |
+| last720d | 2024-10-01 | 0 | 11067 | 600 | 13350 | 3563 | 11468 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for flutter lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260920.yml` · 2026-09-20T05:03:58Z._
+_Snapshot: `data/card/260921.yml` · 2026-09-21T05:08:22Z._
