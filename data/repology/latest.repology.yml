@@ -1,39 +1,11 @@
 - repo: aur
   srcname: flutter
-  binname: flutter-target-android
-  visiblename: flutter-target-android
+  binname: flutter-tool
+  visiblename: flutter-tool
   version: 3.41.2
   origversion: 3.41.2-3
   status: outdated
-  summary: Flutter SDK component - android target files
-  maintainers:
-    - withthebraid@aur
-  licenses:
-    - BSD
-    - CCPL
-    - custom
-- repo: aur
-  srcname: flutter
-  binname: flutter-target-web
-  visiblename: flutter-target-web
-  version: 3.41.2
-  origversion: 3.41.2-3
-  status: outdated
-  summary: Flutter SDK component - web target files
-  maintainers:
-    - withthebraid@aur
-  licenses:
-    - BSD
-    - CCPL
-    - custom
-- repo: aur
-  srcname: flutter
-  binname: flutter-common
-  visiblename: flutter-common
-  version: 3.41.2
-  origversion: 3.41.2-3
-  status: outdated
-  summary: Flutter SDK component - common SDK files and pub cache
+  summary: Flutter SDK component - CLI tool (for packaging only)
   maintainers:
     - withthebraid@aur
   licenses:
@@ -80,12 +52,12 @@
     - custom
 - repo: aur
   srcname: flutter
-  binname: flutter-gradle
-  visiblename: flutter-gradle
+  binname: flutter-common
+  visiblename: flutter-common
   version: 3.41.2
   origversion: 3.41.2-3
   status: outdated
-  summary: Flutter SDK component - gradle wrapper
+  summary: Flutter SDK component - common SDK files and pub cache
   maintainers:
     - withthebraid@aur
   licenses:
@@ -94,12 +66,12 @@
     - custom
 - repo: aur
   srcname: flutter
-  binname: flutter-tool
-  visiblename: flutter-tool
+  binname: flutter-gradle
+  visiblename: flutter-gradle
   version: 3.41.2
   origversion: 3.41.2-3
   status: outdated
-  summary: Flutter SDK component - CLI tool (for packaging only)
+  summary: Flutter SDK component - gradle wrapper
   maintainers:
     - withthebraid@aur
   licenses:
@@ -128,6 +100,34 @@
   origversion: 3.41.2-3
   status: outdated
   summary: Flutter SDK component - linux target files
+  maintainers:
+    - withthebraid@aur
+  licenses:
+    - BSD
+    - CCPL
+    - custom
+- repo: aur
+  srcname: flutter
+  binname: flutter-target-android
+  visiblename: flutter-target-android
+  version: 3.41.2
+  origversion: 3.41.2-3
+  status: outdated
+  summary: Flutter SDK component - android target files
+  maintainers:
+    - withthebraid@aur
+  licenses:
+    - BSD
+    - CCPL
+    - custom
+- repo: aur
+  srcname: flutter
+  binname: flutter-target-web
+  visiblename: flutter-target-web
+  version: 3.41.2
+  origversion: 3.41.2-3
+  status: outdated
+  summary: Flutter SDK component - web target files
   maintainers:
     - withthebraid@aur
   licenses:
@@ -266,7 +266,7 @@
   visiblename: flutter-bin
   version: 3.47.7
   origversion: 3.47.7-1
-  status: newest
+  status: outdated
   summary: Cross platform widget toolkit for Dart (monolithic)
   maintainers:
     - xiota@aur
@@ -278,8 +278,8 @@
   srcname: flutter-git
   binname: flutter-git
   visiblename: flutter-git
-  version: 3.50.0.0.1.pre.r92174.84abdf73726
-  origversion: 3.50.0.0.1.pre.r92174.84abdf73726-1
+  version: 3.50.0.0.1.pre.r92198.7b0a985e549
+  origversion: 3.50.0.0.1.pre.r92198.7b0a985e549-1
   status: rolling
   summary: A new mobile app SDK to help developers and designers build modern mobile apps for iOS and Android.
   maintainers:
@@ -300,14 +300,14 @@
   visiblename: flutter
   version: 3.47.7
   origversion: null
-  status: newest
+  status: outdated
   summary: Flutter is Google's UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.
   licenses:
     - BSD-3
 - repo: homebrew_casks
   srcname: flutter
   visiblename: Flutter SDK
-  version: 3.47.7
+  version: 3.47.8
   origversion: null
   status: newest
   summary: UI toolkit for building applications for mobile, web and desktop
@@ -315,7 +315,7 @@
   subrepo: extras
   binname: flutter
   visiblename: flutter
-  version: 3.47.7
+  version: 3.47.8
   origversion: null
   status: newest
   licenses:
@@ -325,7 +325,7 @@
   visiblename: flutter
   version: 3.47.7
   origversion: null
-  status: newest
+  status: outdated
   summary: Framework and tools for building cross-platform applications
   maintainers:
     - rene@exactco.de
@@ -339,7 +339,7 @@
   visiblename: flutter
   version: 3.47.7
   origversion: 3.47.7-1.fcrawhide
-  status: newest
+  status: outdated
   summary: SDK for crafting beautiful, fast user experiences from a single codebase
   licenses:
     - BSD-3-Clause
@@ -351,7 +351,7 @@
   visiblename: flutter
   version: 3.47.7
   origversion: 3.47.7-1.fcrawhide
-  status: newest
+  status: outdated
   summary: SDK for crafting beautiful, fast user experiences from a single codebase
   licenses:
     - BSD-3-Clause
