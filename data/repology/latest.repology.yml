@@ -1,17 +1,3 @@
-- repo: aur
-  srcname: flutter
-  binname: flutter-tool
-  visiblename: flutter-tool
-  version: 3.41.2
-  origversion: 3.41.2-3
-  status: outdated
-  summary: Flutter SDK component - CLI tool (for packaging only)
-  maintainers:
-    - withthebraid@aur
-  licenses:
-    - BSD
-    - CCPL
-    - custom
 - repo: altsisyphus
   srcname: flutter
   binnames:
@@ -72,6 +58,20 @@
   origversion: 3.41.2-3
   status: outdated
   summary: Flutter SDK component - gradle wrapper
+  maintainers:
+    - withthebraid@aur
+  licenses:
+    - BSD
+    - CCPL
+    - custom
+- repo: aur
+  srcname: flutter
+  binname: flutter-tool
+  visiblename: flutter-tool
+  version: 3.41.2
+  origversion: 3.41.2-3
+  status: outdated
+  summary: Flutter SDK component - CLI tool (for packaging only)
   maintainers:
     - withthebraid@aur
   licenses:
@@ -278,8 +278,8 @@
   srcname: flutter-git
   binname: flutter-git
   visiblename: flutter-git
-  version: 3.50.0.0.1.pre.r92198.7b0a985e549
-  origversion: 3.50.0.0.1.pre.r92198.7b0a985e549-1
+  version: 3.50.0.0.2.pre.r92219.2541e508405
+  origversion: 3.50.0.0.2.pre.r92219.2541e508405-1
   status: rolling
   summary: A new mobile app SDK to help developers and designers build modern mobile apps for iOS and Android.
   maintainers:
