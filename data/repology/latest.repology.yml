@@ -1,3 +1,47 @@
+- repo: aur
+  srcname: flutter
+  binname: flutter-gradle
+  visiblename: flutter-gradle
+  version: 3.41.2
+  origversion: 3.41.2-3
+  status: outdated
+  summary: Flutter SDK component - gradle wrapper
+  maintainers:
+    - withthebraid@aur
+  licenses:
+    - BSD
+    - CCPL
+    - custom
+- repo: homebrew_casks
+  srcname: flutter
+  visiblename: Flutter SDK
+  version: 3.47.8
+  origversion: null
+  status: newest
+  summary: UI toolkit for building applications for mobile, web and desktop
+- repo: aur
+  srcname: flutter
+  binname: flutter-tool
+  visiblename: flutter-tool
+  version: 3.41.2
+  origversion: 3.41.2-3
+  status: outdated
+  summary: Flutter SDK component - CLI tool (for packaging only)
+  maintainers:
+    - withthebraid@aur
+  licenses:
+    - BSD
+    - CCPL
+    - custom
+- repo: chromebrew
+  srcname: flutter
+  visiblename: flutter
+  version: 3.47.8
+  origversion: null
+  status: newest
+  summary: Flutter is Google's UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.
+  licenses:
+    - BSD-3
 - repo: altsisyphus
   srcname: flutter
   binnames:
@@ -44,34 +88,6 @@
   origversion: 3.41.2-3
   status: outdated
   summary: Flutter SDK component - common SDK files and pub cache
-  maintainers:
-    - withthebraid@aur
-  licenses:
-    - BSD
-    - CCPL
-    - custom
-- repo: aur
-  srcname: flutter
-  binname: flutter-gradle
-  visiblename: flutter-gradle
-  version: 3.41.2
-  origversion: 3.41.2-3
-  status: outdated
-  summary: Flutter SDK component - gradle wrapper
-  maintainers:
-    - withthebraid@aur
-  licenses:
-    - BSD
-    - CCPL
-    - custom
-- repo: aur
-  srcname: flutter
-  binname: flutter-tool
-  visiblename: flutter-tool
-  version: 3.41.2
-  origversion: 3.41.2-3
-  status: outdated
-  summary: Flutter SDK component - CLI tool (for packaging only)
   maintainers:
     - withthebraid@aur
   licenses:
@@ -278,8 +294,8 @@
   srcname: flutter-git
   binname: flutter-git
   visiblename: flutter-git
-  version: 3.50.0.0.2.pre.r92219.2541e508405
-  origversion: 3.50.0.0.2.pre.r92219.2541e508405-1
+  version: 3.50.0.0.2.pre.r92221.66b3ad90177
+  origversion: 3.50.0.0.2.pre.r92221.66b3ad90177-1
   status: rolling
   summary: A new mobile app SDK to help developers and designers build modern mobile apps for iOS and Android.
   maintainers:
@@ -291,26 +307,10 @@
 - repo: chocolatey
   binname: flutter
   visiblename: Flutter
-  version: 3.47.3
+  version: 3.47.4
   origversion: null
   status: outdated
   summary: Build beautiful native apps in record time
-- repo: chromebrew
-  srcname: flutter
-  visiblename: flutter
-  version: 3.47.7
-  origversion: null
-  status: outdated
-  summary: Flutter is Google's UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.
-  licenses:
-    - BSD-3
-- repo: homebrew_casks
-  srcname: flutter
-  visiblename: Flutter SDK
-  version: 3.47.8
-  origversion: null
-  status: newest
-  summary: UI toolkit for building applications for mobile, web and desktop
 - repo: scoop
   subrepo: extras
   binname: flutter
@@ -323,9 +323,9 @@
 - repo: t2
   srcname: flutter
   visiblename: flutter
-  version: 3.47.7
+  version: 3.47.8
   origversion: null
-  status: outdated
+  status: newest
   summary: Framework and tools for building cross-platform applications
   maintainers:
     - rene@exactco.de
