@@ -47,26 +47,26 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 180,365 · **Forks**: 33,711 · **Open issues**: 116,546 · **Contributors**: 2,131
+- **Stars**: 180,377 · **Forks**: 33,290 · **Open issues**: 116,559 · **Contributors**: 2,131
 
 ## Totals (cumulative)
 
-- **Releases**: 7 · **Merged PRs**: 50905 · **Open PRs**: 720 · **Closed issues**: 103782 · **Open issues**: 12764 · **Commits**: 92221
+- **Releases**: 7 · **Merged PRs**: 50905 · **Open PRs**: 742 · **Closed issues**: 103785 · **Open issues**: 12774 · **Commits**: 92221
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-25 | 0 | 405 | 348 | 218 | 421 | 438 |
-| last60d | 2026-08-26 | 0 | 904 | 471 | 554 | 678 | 978 |
-| 90d | 2026-07-27 | 0 | 1588 | 581 | 911 | 874 | 1693 |
-| last180d | 2026-04-28 | 0 | 2973 | 675 | 1993 | 1314 | 3089 |
-| 360d | 2025-10-30 | 0 | 5876 | 715 | 4322 | 1948 | 6350 |
-| last720d | 2024-11-04 | 0 | 11224 | 720 | 12971 | 3608 | 11118 |
+| 30d | 2026-09-26 | 0 | 402 | 362 | 218 | 427 | 438 |
+| last60d | 2026-08-27 | 0 | 875 | 491 | 538 | 678 | 978 |
+| 90d | 2026-07-28 | 0 | 1571 | 601 | 897 | 881 | 1693 |
+| last180d | 2026-04-29 | 0 | 2943 | 693 | 1976 | 1314 | 3089 |
+| 360d | 2025-10-31 | 0 | 5860 | 737 | 4311 | 1956 | 6350 |
+| last720d | 2024-11-05 | 0 | 11200 | 742 | 12942 | 3609 | 11091 |
 
 ## Distribution status
 
-Reported by **50** distros on [repology.org](https://repology.org/project/flutter). **2** are ✅ on the latest upstream release, **45** are ⚠️ on an older version.
+Reported by **50** distros on [repology.org](https://repology.org/project/flutter). **4** are ✅ on the latest upstream release, **43** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -81,4 +81,4 @@ Install metadata for flutter lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261025.yml` · 2026-10-25T04:41:33Z._
+_Snapshot: `data/card/261026.yml` · 2026-10-26T04:42:54Z._
