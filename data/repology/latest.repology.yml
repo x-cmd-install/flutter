@@ -1,40 +1,17 @@
 - repo: aur
   srcname: flutter
-  binname: flutter-intellij-patch
-  visiblename: flutter-intellij-patch
+  binname: flutter
+  visiblename: flutter
   version: 3.41.2
   origversion: 3.41.2-3
   status: outdated
-  summary: Flutter SDK component - IntelliJ Flutter plugin hotfix
+  summary: Flutter SDK component - full installation of development tool and runtime
   maintainers:
     - withthebraid@aur
   licenses:
     - BSD
     - CCPL
     - custom
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: flutter
-  binnames:
-    - flutter
-    - flutter-web-plugins
-  visiblename: flutter
-  version: 3.47.5
-  origversion: 3.47.5+ds1-2
-  status: outdated
-  maintainers:
-    - emfox@debian.org
-  categories:
-    - devel
-- repo: chromebrew
-  srcname: flutter
-  visiblename: flutter
-  version: 3.47.8
-  origversion: null
-  status: newest
-  summary: Flutter is Google's UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.
-  licenses:
-    - BSD-3
 - repo: altsisyphus
   srcname: flutter
   binnames:
@@ -59,20 +36,6 @@
     - BSD-3-Clause
   categories:
     - Development/Other
-- repo: aur
-  srcname: flutter
-  binname: flutter
-  visiblename: flutter
-  version: 3.41.2
-  origversion: 3.41.2-3
-  status: outdated
-  summary: Flutter SDK component - full installation of development tool and runtime
-  maintainers:
-    - withthebraid@aur
-  licenses:
-    - BSD
-    - CCPL
-    - custom
 - repo: aur
   srcname: flutter
   binname: flutter-common
@@ -165,6 +128,20 @@
   origversion: 3.41.2-3
   status: outdated
   summary: Flutter SDK component - web target files
+  maintainers:
+    - withthebraid@aur
+  licenses:
+    - BSD
+    - CCPL
+    - custom
+- repo: aur
+  srcname: flutter
+  binname: flutter-intellij-patch
+  visiblename: flutter-intellij-patch
+  version: 3.41.2
+  origversion: 3.41.2-3
+  status: outdated
+  summary: Flutter SDK component - IntelliJ Flutter plugin hotfix
   maintainers:
     - withthebraid@aur
   licenses:
@@ -301,8 +278,8 @@
   srcname: flutter-git
   binname: flutter-git
   visiblename: flutter-git
-  version: 3.50.0.0.2.pre.r92244.7ebd8154adf
-  origversion: 3.50.0.0.2.pre.r92244.7ebd8154adf-1
+  version: 3.50.0.0.2.pre.r92259.087a1b62b89
+  origversion: 3.50.0.0.2.pre.r92259.087a1b62b89-1
   status: rolling
   summary: A new mobile app SDK to help developers and designers build modern mobile apps for iOS and Android.
   maintainers:
@@ -318,15 +295,46 @@
   origversion: null
   status: outdated
   summary: Build beautiful native apps in record time
+- repo: chromebrew
+  srcname: flutter
+  visiblename: flutter
+  version: 3.47.8
+  origversion: null
+  status: newest
+  summary: Flutter is Google's UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.
+  licenses:
+    - BSD-3
 - repo: debian_unstable
   subrepo: sid/main
   srcname: flutter
   binnames:
     - flutter
     - flutter-web-plugins
+    - flutter-localizations
+    - flutter-test
+    - flutter-goldens
+    - fuchsia-remote-debug-protocol
   visiblename: flutter
   version: 3.47.5
-  origversion: 3.47.5+ds1-2
+  origversion: 3.47.5+ds1-3
+  status: outdated
+  maintainers:
+    - emfox@debian.org
+  categories:
+    - devel
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: flutter
+  binnames:
+    - flutter
+    - flutter-web-plugins
+    - flutter-localizations
+    - flutter-test
+    - flutter-goldens
+    - fuchsia-remote-debug-protocol
+  visiblename: flutter
+  version: 3.47.5
+  origversion: 3.47.5+ds1-3
   status: outdated
   maintainers:
     - emfox@debian.org
