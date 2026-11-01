@@ -1,32 +1,34 @@
-- repo: chocolatey
-  binname: flutter
-  visiblename: Flutter
-  version: 3.47.4
-  origversion: null
-  status: outdated
-  summary: Build beautiful native apps in record time
 - repo: aur
   srcname: flutter
-  binname: flutter-target-android
-  visiblename: flutter-target-android
+  binname: flutter-artifacts-engine-linux-google-bin
+  visiblename: flutter-artifacts-engine-linux-google-bin
   version: 3.41.2
   origversion: 3.41.2-3
   status: outdated
-  summary: Flutter SDK component - android target files
+  summary: Flutter SDK component - linux engine
   maintainers:
     - withthebraid@aur
   licenses:
     - BSD
     - CCPL
     - custom
+- repo: scoop
+  subrepo: extras
+  binname: flutter
+  visiblename: flutter
+  version: 3.47.9
+  origversion: null
+  status: newest
+  licenses:
+    - BSD-3-Clause
 - repo: aur
   srcname: flutter
-  binname: flutter-target-web
-  visiblename: flutter-target-web
+  binname: flutter-artifacts-engine-web-google-bin
+  visiblename: flutter-artifacts-engine-web-google-bin
   version: 3.41.2
   origversion: 3.41.2-3
   status: outdated
-  summary: Flutter SDK component - web target files
+  summary: Flutter SDK component - web engine
   maintainers:
     - withthebraid@aur
   licenses:
@@ -143,6 +145,34 @@
     - custom
 - repo: aur
   srcname: flutter
+  binname: flutter-target-android
+  visiblename: flutter-target-android
+  version: 3.41.2
+  origversion: 3.41.2-3
+  status: outdated
+  summary: Flutter SDK component - android target files
+  maintainers:
+    - withthebraid@aur
+  licenses:
+    - BSD
+    - CCPL
+    - custom
+- repo: aur
+  srcname: flutter
+  binname: flutter-target-web
+  visiblename: flutter-target-web
+  version: 3.41.2
+  origversion: 3.41.2-3
+  status: outdated
+  summary: Flutter SDK component - web target files
+  maintainers:
+    - withthebraid@aur
+  licenses:
+    - BSD
+    - CCPL
+    - custom
+- repo: aur
+  srcname: flutter
   binname: flutter-intellij-patch
   visiblename: flutter-intellij-patch
   version: 3.41.2
@@ -163,34 +193,6 @@
   origversion: 3.41.2-3
   status: outdated
   summary: Flutter SDK component - common engine files
-  maintainers:
-    - withthebraid@aur
-  licenses:
-    - BSD
-    - CCPL
-    - custom
-- repo: aur
-  srcname: flutter
-  binname: flutter-artifacts-engine-linux-google-bin
-  visiblename: flutter-artifacts-engine-linux-google-bin
-  version: 3.41.2
-  origversion: 3.41.2-3
-  status: outdated
-  summary: Flutter SDK component - linux engine
-  maintainers:
-    - withthebraid@aur
-  licenses:
-    - BSD
-    - CCPL
-    - custom
-- repo: aur
-  srcname: flutter
-  binname: flutter-artifacts-engine-web-google-bin
-  visiblename: flutter-artifacts-engine-web-google-bin
-  version: 3.41.2
-  origversion: 3.41.2-3
-  status: outdated
-  summary: Flutter SDK component - web engine
   maintainers:
     - withthebraid@aur
   licenses:
@@ -285,8 +287,8 @@
   srcname: flutter-git
   binname: flutter-git
   visiblename: flutter-git
-  version: 3.50.0.0.3.pre.r92302.a682eb33099
-  origversion: 3.50.0.0.3.pre.r92302.a682eb33099-1
+  version: 3.50.0.0.3.pre.r92324.ee8b48245d7
+  origversion: 3.50.0.0.3.pre.r92324.ee8b48245d7-1
   status: rolling
   summary: A new mobile app SDK to help developers and designers build modern mobile apps for iOS and Android.
   maintainers:
@@ -295,6 +297,13 @@
     - BSD
     - CCPL
     - custom
+- repo: chocolatey
+  binname: flutter
+  visiblename: Flutter
+  version: 3.47.4
+  origversion: null
+  status: outdated
+  summary: Build beautiful native apps in record time
 - repo: chromebrew
   srcname: flutter
   visiblename: flutter
@@ -347,15 +356,6 @@
   origversion: null
   status: newest
   summary: UI toolkit for building applications for mobile, web and desktop
-- repo: scoop
-  subrepo: extras
-  binname: flutter
-  visiblename: flutter
-  version: 3.47.9
-  origversion: null
-  status: newest
-  licenses:
-    - BSD-3-Clause
 - repo: t2
   srcname: flutter
   visiblename: flutter
@@ -402,6 +402,19 @@
   summary: open-source UI software development kit for cross-platform applications
   licenses:
     - 3-clause BSD License
+- repo: terra_41
+  srcname: flutter
+  binname: flutter
+  visiblename: flutter
+  version: 3.35.7
+  origversion: 3.35.7-1.fc41
+  status: outdated
+  summary: SDK for crafting beautiful, fast user experiences from a single codebase
+  licenses:
+    - BSD-3-Clause
+  categories:
+    - Development/Building
+  vulnerable: true
 - repo: alpine_edge
   subrepo: testing
   srcname: flutter
@@ -699,19 +712,6 @@
   visiblename: flutter
   version: 3.32.4
   origversion: 3.32.4-1.fc40
-  status: outdated
-  summary: SDK for crafting beautiful, fast user experiences from a single codebase
-  licenses:
-    - BSD-3-Clause
-  categories:
-    - Development/Building
-  vulnerable: true
-- repo: terra_41
-  srcname: flutter
-  binname: flutter
-  visiblename: flutter
-  version: 3.35.7
-  origversion: 3.35.7-1.fc41
   status: outdated
   summary: SDK for crafting beautiful, fast user experiences from a single codebase
   licenses:
