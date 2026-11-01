@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 180,760 · **Forks**: 33,391 · **Open issues**: 116,693 · **Contributors**: 2,138
+- **Stars**: 180,861 · **Forks**: 32,832 · **Open issues**: 116,709 · **Contributors**: 2,138
 
 ## Totals (cumulative)
 
-- **Releases**: 7 · **Merged PRs**: 51029 · **Open PRs**: 723 · **Closed issues**: 103931 · **Open issues**: 12762 · **Commits**: 92323
+- **Releases**: 7 · **Merged PRs**: 51032 · **Open PRs**: 726 · **Closed issues**: 103932 · **Open issues**: 12777 · **Commits**: 92326
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-01 | 0 | 428 | 329 | 259 | 419 | 553 |
-| last60d | 2026-09-01 | 0 | 923 | 480 | 587 | 696 | 1093 |
-| 90d | 2026-08-02 | 0 | 1608 | 578 | 944 | 873 | 1808 |
-| last180d | 2026-05-04 | 0 | 2999 | 672 | 2035 | 1319 | 3204 |
-| 360d | 2025-11-05 | 0 | 5921 | 718 | 4347 | 1955 | 6465 |
-| last720d | 2024-11-10 | 0 | 11274 | 723 | 12957 | 3594 | 11043 |
+| 30d | 2026-10-02 | 0 | 414 | 331 | 245 | 420 | 418 |
+| last60d | 2026-09-02 | 0 | 895 | 482 | 575 | 697 | 986 |
+| 90d | 2026-08-03 | 0 | 1580 | 581 | 926 | 881 | 1650 |
+| last180d | 2026-05-05 | 0 | 2976 | 674 | 2020 | 1328 | 3086 |
+| 360d | 2025-11-06 | 0 | 5900 | 721 | 4329 | 1966 | 6340 |
+| last720d | 2024-11-11 | 0 | 11268 | 726 | 12934 | 3608 | 11043 |
 
 ## Distribution status
 
@@ -82,4 +82,4 @@ Install metadata for flutter lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261031.yml` · 2026-10-31T05:41:39Z._
+_Snapshot: `data/card/261101.yml` · 2026-11-01T06:17:29Z._
