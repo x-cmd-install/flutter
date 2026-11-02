@@ -1,17 +1,3 @@
-- repo: aur
-  srcname: flutter
-  binname: flutter-artifacts-engine-linux-google-bin
-  visiblename: flutter-artifacts-engine-linux-google-bin
-  version: 3.41.2
-  origversion: 3.41.2-3
-  status: outdated
-  summary: Flutter SDK component - linux engine
-  maintainers:
-    - withthebraid@aur
-  licenses:
-    - BSD
-    - CCPL
-    - custom
 - repo: scoop
   subrepo: extras
   binname: flutter
@@ -21,20 +7,6 @@
   status: newest
   licenses:
     - BSD-3-Clause
-- repo: aur
-  srcname: flutter
-  binname: flutter-artifacts-engine-web-google-bin
-  visiblename: flutter-artifacts-engine-web-google-bin
-  version: 3.41.2
-  origversion: 3.41.2-3
-  status: outdated
-  summary: Flutter SDK component - web engine
-  maintainers:
-    - withthebraid@aur
-  licenses:
-    - BSD
-    - CCPL
-    - custom
 - repo: altsisyphus
   srcname: flutter
   binnames:
@@ -201,6 +173,34 @@
     - custom
 - repo: aur
   srcname: flutter
+  binname: flutter-artifacts-engine-linux-google-bin
+  visiblename: flutter-artifacts-engine-linux-google-bin
+  version: 3.41.2
+  origversion: 3.41.2-3
+  status: outdated
+  summary: Flutter SDK component - linux engine
+  maintainers:
+    - withthebraid@aur
+  licenses:
+    - BSD
+    - CCPL
+    - custom
+- repo: aur
+  srcname: flutter
+  binname: flutter-artifacts-engine-web-google-bin
+  visiblename: flutter-artifacts-engine-web-google-bin
+  version: 3.41.2
+  origversion: 3.41.2-3
+  status: outdated
+  summary: Flutter SDK component - web engine
+  maintainers:
+    - withthebraid@aur
+  licenses:
+    - BSD
+    - CCPL
+    - custom
+- repo: aur
+  srcname: flutter
   binname: flutter-artifacts-engine-android-google-bin
   visiblename: flutter-artifacts-engine-android-google-bin
   version: 3.41.2
@@ -287,8 +287,8 @@
   srcname: flutter-git
   binname: flutter-git
   visiblename: flutter-git
-  version: 3.50.0.0.3.pre.r92324.ee8b48245d7
-  origversion: 3.50.0.0.3.pre.r92324.ee8b48245d7-1
+  version: 3.50.0.0.3.pre.r92327.fcfb4f203ea
+  origversion: 3.50.0.0.3.pre.r92327.fcfb4f203ea-1
   status: rolling
   summary: A new mobile app SDK to help developers and designers build modern mobile apps for iOS and Android.
   maintainers:
@@ -323,9 +323,11 @@
     - flutter-test
     - flutter-goldens
     - fuchsia-remote-debug-protocol
+    - flutter-driver
+    - integration-test
   visiblename: flutter
   version: 3.47.5
-  origversion: 3.47.5+ds1-4
+  origversion: 3.47.5+ds1-5
   status: outdated
   maintainers:
     - emfox@debian.org
@@ -341,9 +343,11 @@
     - flutter-test
     - flutter-goldens
     - fuchsia-remote-debug-protocol
+    - flutter-driver
+    - integration-test
   visiblename: flutter
   version: 3.47.5
-  origversion: 3.47.5+ds1-4
+  origversion: 3.47.5+ds1-5
   status: outdated
   maintainers:
     - emfox@debian.org
@@ -402,18 +406,19 @@
   summary: open-source UI software development kit for cross-platform applications
   licenses:
     - 3-clause BSD License
-- repo: terra_41
+- repo: alpine_edge
+  subrepo: testing
   srcname: flutter
-  binname: flutter
-  visiblename: flutter
-  version: 3.35.7
-  origversion: 3.35.7-1.fc41
+  binname: flutter-tool
+  visiblename: flutter-tool
+  version: 3.38.4
+  origversion: 3.38.4-r3
   status: outdated
-  summary: SDK for crafting beautiful, fast user experiences from a single codebase
+  summary: Cross-platform apps, built in Omelas (CLI tool)
+  maintainers:
+    - lauren@selfisekai.rocks
   licenses:
     - BSD-3-Clause
-  categories:
-    - Development/Building
   vulnerable: true
 - repo: alpine_edge
   subrepo: testing
@@ -494,20 +499,6 @@
   origversion: 3.38.4-r3
   status: outdated
   summary: Cross-platform apps, built in Omelas (GTK embedder runtime)
-  maintainers:
-    - lauren@selfisekai.rocks
-  licenses:
-    - BSD-3-Clause
-  vulnerable: true
-- repo: alpine_edge
-  subrepo: testing
-  srcname: flutter
-  binname: flutter-tool
-  visiblename: flutter-tool
-  version: 3.38.4
-  origversion: 3.38.4-r3
-  status: outdated
-  summary: Cross-platform apps, built in Omelas (CLI tool)
   maintainers:
     - lauren@selfisekai.rocks
   licenses:
@@ -712,6 +703,19 @@
   visiblename: flutter
   version: 3.32.4
   origversion: 3.32.4-1.fc40
+  status: outdated
+  summary: SDK for crafting beautiful, fast user experiences from a single codebase
+  licenses:
+    - BSD-3-Clause
+  categories:
+    - Development/Building
+  vulnerable: true
+- repo: terra_41
+  srcname: flutter
+  binname: flutter
+  visiblename: flutter
+  version: 3.35.7
+  origversion: 3.35.7-1.fc41
   status: outdated
   summary: SDK for crafting beautiful, fast user experiences from a single codebase
   licenses:
