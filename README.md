@@ -43,26 +43,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `3.19.0-0.1.pre` (2024-01-11)
-- **Last commit**: 2026-10-31
+- **Last commit**: 2026-11-02
 
 ## Popularity
 
-- **Stars**: 180,861 · **Forks**: 32,832 · **Open issues**: 116,709 · **Contributors**: 2,138
+- **Stars**: 180,998 · **Forks**: 32,866 · **Open issues**: 116,714 · **Contributors**: 2,137
 
 ## Totals (cumulative)
 
-- **Releases**: 7 · **Merged PRs**: 51032 · **Open PRs**: 726 · **Closed issues**: 103932 · **Open issues**: 12777 · **Commits**: 92326
+- **Releases**: 7 · **Merged PRs**: 51035 · **Open PRs**: 734 · **Closed issues**: 103936 · **Open issues**: 12778 · **Commits**: 92329
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-02 | 0 | 414 | 331 | 245 | 420 | 418 |
-| last60d | 2026-09-02 | 0 | 895 | 482 | 575 | 697 | 986 |
-| 90d | 2026-08-03 | 0 | 1580 | 581 | 926 | 881 | 1650 |
-| last180d | 2026-05-05 | 0 | 2976 | 674 | 2020 | 1328 | 3086 |
-| 360d | 2025-11-06 | 0 | 5900 | 721 | 4329 | 1966 | 6340 |
-| last720d | 2024-11-11 | 0 | 11268 | 726 | 12934 | 3608 | 11043 |
+| 30d | 2026-10-03 | 0 | 412 | 340 | 244 | 414 | 421 |
+| last60d | 2026-09-03 | 0 | 873 | 483 | 570 | 696 | 989 |
+| 90d | 2026-08-04 | 0 | 1553 | 586 | 911 | 866 | 1653 |
+| last180d | 2026-05-06 | 0 | 2960 | 681 | 2005 | 1324 | 3089 |
+| 360d | 2025-11-07 | 0 | 5885 | 729 | 4322 | 1966 | 6343 |
+| last720d | 2024-11-12 | 0 | 11254 | 734 | 12913 | 3608 | 11017 |
 
 ## Distribution status
 
@@ -82,4 +82,4 @@ Install metadata for flutter lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261101.yml` · 2026-11-01T06:17:29Z._
+_Snapshot: `data/card/261102.yml` · 2026-11-02T05:58:56Z._
