@@ -264,9 +264,9 @@
   srcname: flutter-bin
   binname: flutter-bin
   visiblename: flutter-bin
-  version: 3.47.7
-  origversion: 3.47.7-1
-  status: outdated
+  version: 3.47.9
+  origversion: 3.47.9-1
+  status: newest
   summary: Cross platform widget toolkit for Dart (monolithic)
   maintainers:
     - xiota@aur
@@ -278,8 +278,8 @@
   srcname: flutter-git
   binname: flutter-git
   visiblename: flutter-git
-  version: 3.50.0.0.3.pre.r92332.80e556c0432
-  origversion: 3.50.0.0.3.pre.r92332.80e556c0432-1
+  version: 3.50.0.0.3.pre.r92365.934720261be
+  origversion: 3.50.0.0.3.pre.r92365.934720261be-1
   status: rolling
   summary: A new mobile app SDK to help developers and designers build modern mobile apps for iOS and Android.
   maintainers:
