@@ -278,8 +278,8 @@
   srcname: flutter-git
   binname: flutter-git
   visiblename: flutter-git
-  version: 3.50.0.0.3.pre.r92390.3623d2d3454
-  origversion: 3.50.0.0.3.pre.r92390.3623d2d3454-1
+  version: 3.50.0.0.4.pre.r92451.09175cdeac8
+  origversion: 3.50.0.0.4.pre.r92451.09175cdeac8-1
   status: rolling
   summary: A new mobile app SDK to help developers and designers build modern mobile apps for iOS and Android.
   maintainers:
@@ -319,20 +319,11 @@
   visiblename: flutter
   version: 3.47.5
   origversion: 3.47.5+ds1-5
-  status: outdated
+  status: legacy
   maintainers:
     - emfox@debian.org
   categories:
     - devel
-- repo: wikidata
-  srcname: Q39072787
-  visiblename: Flutter
-  version: 3.47.0
-  origversion: null
-  status: outdated
-  summary: open-source UI software development kit for cross-platform applications
-  licenses:
-    - 3-clause BSD License
 - repo: debian_unstable
   subrepo: sid/main
   srcname: flutter
@@ -346,9 +337,9 @@
     - flutter-driver
     - flutter-integration-test
   visiblename: flutter
-  version: 3.47.5
-  origversion: 3.47.5+ds1-6
-  status: outdated
+  version: 3.47.9
+  origversion: 3.47.9+ds1-1
+  status: newest
   maintainers:
     - emfox@debian.org
   categories:
@@ -366,9 +357,9 @@
     - flutter-driver
     - flutter-integration-test
   visiblename: flutter
-  version: 3.47.5
-  origversion: 3.47.5+ds1-6
-  status: outdated
+  version: 3.47.9
+  origversion: 3.47.9+ds1-1
+  status: newest
   maintainers:
     - emfox@debian.org
   categories:
@@ -406,9 +397,9 @@
   srcname: flutter
   binname: flutter
   visiblename: flutter
-  version: 3.47.8
-  origversion: 3.47.8-1.fcrawhide
-  status: outdated
+  version: 3.47.9
+  origversion: 3.47.9-1.fcrawhide
+  status: newest
   summary: SDK for crafting beautiful, fast user experiences from a single codebase
   licenses:
     - BSD-3-Clause
@@ -418,40 +409,23 @@
   srcname: flutter
   binname: flutter
   visiblename: flutter
-  version: 3.47.8
-  origversion: 3.47.8-1.fcrawhide
-  status: outdated
+  version: 3.47.9
+  origversion: 3.47.9-1.fcrawhide
+  status: newest
   summary: SDK for crafting beautiful, fast user experiences from a single codebase
   licenses:
     - BSD-3-Clause
   categories:
     - Development/Building
-- repo: terra_39
-  srcname: flutter
-  binname: flutter
-  visiblename: flutter
-  version: 3.27.0
-  origversion: 3.27.0-1.fc39
+- repo: wikidata
+  srcname: Q39072787
+  visiblename: Flutter
+  version: 3.47.0
+  origversion: null
   status: outdated
-  summary: SDK for crafting beautiful, fast user experiences from a single codebase
+  summary: open-source UI software development kit for cross-platform applications
   licenses:
-    - BSD-3-Clause
-  categories:
-    - Development/Building
-  vulnerable: true
-- repo: terra_40
-  srcname: flutter
-  binname: flutter
-  visiblename: flutter
-  version: 3.32.4
-  origversion: 3.32.4-1.fc40
-  status: outdated
-  summary: SDK for crafting beautiful, fast user experiences from a single codebase
-  licenses:
-    - BSD-3-Clause
-  categories:
-    - Development/Building
-  vulnerable: true
+    - 3-clause BSD License
 - repo: alpine_edge
   subrepo: testing
   srcname: flutter
@@ -711,6 +685,32 @@
   version: 3.24.5
   origversion: 3.24.5-1.fc39
   status: legacy
+  summary: SDK for crafting beautiful, fast user experiences from a single codebase
+  licenses:
+    - BSD-3-Clause
+  categories:
+    - Development/Building
+  vulnerable: true
+- repo: terra_39
+  srcname: flutter
+  binname: flutter
+  visiblename: flutter
+  version: 3.27.0
+  origversion: 3.27.0-1.fc39
+  status: outdated
+  summary: SDK for crafting beautiful, fast user experiences from a single codebase
+  licenses:
+    - BSD-3-Clause
+  categories:
+    - Development/Building
+  vulnerable: true
+- repo: terra_40
+  srcname: flutter
+  binname: flutter
+  visiblename: flutter
+  version: 3.32.4
+  origversion: 3.32.4-1.fc40
+  status: outdated
   summary: SDK for crafting beautiful, fast user experiences from a single codebase
   licenses:
     - BSD-3-Clause
