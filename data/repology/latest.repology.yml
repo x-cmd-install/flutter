@@ -1,3 +1,24 @@
+- repo: chocolatey
+  binname: flutter
+  visiblename: Flutter
+  version: 3.47.4
+  origversion: null
+  status: outdated
+  summary: Build beautiful native apps in record time
+- repo: aur
+  srcname: flutter
+  binname: flutter-artifacts-engine-linux-google-bin
+  visiblename: flutter-artifacts-engine-linux-google-bin
+  version: 3.41.2
+  origversion: 3.41.2-3
+  status: outdated
+  summary: Flutter SDK component - linux engine
+  maintainers:
+    - withthebraid@aur
+  licenses:
+    - BSD
+    - CCPL
+    - custom
 - repo: altsisyphus
   srcname: flutter
   binnames:
@@ -162,20 +183,26 @@
     - BSD
     - CCPL
     - custom
-- repo: aur
+- repo: devuan_unstable
+  subrepo: unstable/main
   srcname: flutter
-  binname: flutter-artifacts-engine-linux-google-bin
-  visiblename: flutter-artifacts-engine-linux-google-bin
-  version: 3.41.2
-  origversion: 3.41.2-3
-  status: outdated
-  summary: Flutter SDK component - linux engine
+  binnames:
+    - flutter
+    - flutter-web-plugins
+    - flutter-localizations
+    - flutter-test
+    - flutter-goldens
+    - fuchsia-remote-debug-protocol
+    - flutter-driver
+    - flutter-integration-test
+  visiblename: flutter
+  version: 3.47.9
+  origversion: 3.47.9+ds1-1
+  status: newest
   maintainers:
-    - withthebraid@aur
-  licenses:
-    - BSD
-    - CCPL
-    - custom
+    - emfox@debian.org
+  categories:
+    - devel
 - repo: aur
   srcname: flutter
   binname: flutter-artifacts-engine-web-google-bin
@@ -278,8 +305,8 @@
   srcname: flutter-git
   binname: flutter-git
   visiblename: flutter-git
-  version: 3.50.0.0.4.pre.r92451.09175cdeac8
-  origversion: 3.50.0.0.4.pre.r92451.09175cdeac8-1
+  version: 3.50.0.0.4.pre.r92473.e36b3701287
+  origversion: 3.50.0.0.4.pre.r92473.e36b3701287-1
   status: rolling
   summary: A new mobile app SDK to help developers and designers build modern mobile apps for iOS and Android.
   maintainers:
@@ -288,13 +315,6 @@
     - BSD
     - CCPL
     - custom
-- repo: chocolatey
-  binname: flutter
-  visiblename: Flutter
-  version: 3.47.4
-  origversion: null
-  status: outdated
-  summary: Build beautiful native apps in record time
 - repo: chromebrew
   srcname: flutter
   visiblename: flutter
@@ -326,26 +346,6 @@
     - devel
 - repo: debian_unstable
   subrepo: sid/main
-  srcname: flutter
-  binnames:
-    - flutter
-    - flutter-web-plugins
-    - flutter-localizations
-    - flutter-test
-    - flutter-goldens
-    - fuchsia-remote-debug-protocol
-    - flutter-driver
-    - flutter-integration-test
-  visiblename: flutter
-  version: 3.47.9
-  origversion: 3.47.9+ds1-1
-  status: newest
-  maintainers:
-    - emfox@debian.org
-  categories:
-    - devel
-- repo: devuan_unstable
-  subrepo: unstable/main
   srcname: flutter
   binnames:
     - flutter
