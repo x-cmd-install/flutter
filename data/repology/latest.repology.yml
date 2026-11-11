@@ -1,3 +1,27 @@
+- repo: altsisyphus
+  srcname: flutter
+  binnames:
+    - flutter-common
+    - flutter-desktop
+    - flutter-desktop-debuginfo
+    - flutter-developer
+    - flutter-glfw
+    - flutter-glfw-debuginfo
+    - flutter-gtk
+    - flutter-gtk-debuginfo
+    - flutter-tool
+    - flutter-tool-developer
+  visiblename: flutter
+  version: 3.41.9
+  origversion: 3.41.9-alt1
+  status: outdated
+  summary: Flutter framework
+  maintainers:
+    - x1z53@altlinux.org
+  licenses:
+    - BSD-3-Clause
+  categories:
+    - Development/Other
 - repo: aur
   srcname: flutter
   binname: flutter
@@ -28,20 +52,6 @@
     - custom
 - repo: aur
   srcname: flutter
-  binname: flutter-artifacts-engine-web-google-bin
-  visiblename: flutter-artifacts-engine-web-google-bin
-  version: 3.41.2
-  origversion: 3.41.2-3
-  status: outdated
-  summary: Flutter SDK component - web engine
-  maintainers:
-    - withthebraid@aur
-  licenses:
-    - BSD
-    - CCPL
-    - custom
-- repo: aur
-  srcname: flutter
   binname: flutter-gradle
   visiblename: flutter-gradle
   version: 3.41.2
@@ -54,30 +64,6 @@
     - BSD
     - CCPL
     - custom
-- repo: altsisyphus
-  srcname: flutter
-  binnames:
-    - flutter-common
-    - flutter-desktop
-    - flutter-desktop-debuginfo
-    - flutter-developer
-    - flutter-glfw
-    - flutter-glfw-debuginfo
-    - flutter-gtk
-    - flutter-gtk-debuginfo
-    - flutter-tool
-    - flutter-tool-developer
-  visiblename: flutter
-  version: 3.41.9
-  origversion: 3.41.9-alt1
-  status: outdated
-  summary: Flutter framework
-  maintainers:
-    - x1z53@altlinux.org
-  licenses:
-    - BSD-3-Clause
-  categories:
-    - Development/Other
 - repo: aur
   srcname: flutter
   binname: flutter-tool
@@ -192,6 +178,20 @@
     - custom
 - repo: aur
   srcname: flutter
+  binname: flutter-artifacts-engine-web-google-bin
+  visiblename: flutter-artifacts-engine-web-google-bin
+  version: 3.41.2
+  origversion: 3.41.2-3
+  status: outdated
+  summary: Flutter SDK component - web engine
+  maintainers:
+    - withthebraid@aur
+  licenses:
+    - BSD
+    - CCPL
+    - custom
+- repo: aur
+  srcname: flutter
   binname: flutter-artifacts-engine-android-google-bin
   visiblename: flutter-artifacts-engine-android-google-bin
   version: 3.41.2
@@ -278,8 +278,8 @@
   srcname: flutter-git
   binname: flutter-git
   visiblename: flutter-git
-  version: 3.50.0.0.4.pre.r92474.acade0f6b53
-  origversion: 3.50.0.0.4.pre.r92474.acade0f6b53-1
+  version: 3.50.0.0.4.pre.r92496.fffd8c22ae6
+  origversion: 3.50.0.0.4.pre.r92496.fffd8c22ae6-1
   status: rolling
   summary: A new mobile app SDK to help developers and designers build modern mobile apps for iOS and Android.
   maintainers:
