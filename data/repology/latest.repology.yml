@@ -1,3 +1,17 @@
+- repo: aur
+  srcname: flutter
+  binname: flutter-common
+  visiblename: flutter-common
+  version: 3.41.2
+  origversion: 3.41.2-3
+  status: outdated
+  summary: Flutter SDK component - common SDK files and pub cache
+  maintainers:
+    - withthebraid@aur
+  licenses:
+    - BSD
+    - CCPL
+    - custom
 - repo: altsisyphus
   srcname: flutter
   binnames:
@@ -30,20 +44,6 @@
   origversion: 3.41.2-3
   status: outdated
   summary: Flutter SDK component - full installation of development tool and runtime
-  maintainers:
-    - withthebraid@aur
-  licenses:
-    - BSD
-    - CCPL
-    - custom
-- repo: aur
-  srcname: flutter
-  binname: flutter-common
-  visiblename: flutter-common
-  version: 3.41.2
-  origversion: 3.41.2-3
-  status: outdated
-  summary: Flutter SDK component - common SDK files and pub cache
   maintainers:
     - withthebraid@aur
   licenses:
@@ -266,7 +266,7 @@
   visiblename: flutter-bin
   version: 3.47.9
   origversion: 3.47.9-1
-  status: newest
+  status: outdated
   summary: Cross platform widget toolkit for Dart (monolithic)
   maintainers:
     - xiota@aur
@@ -278,8 +278,8 @@
   srcname: flutter-git
   binname: flutter-git
   visiblename: flutter-git
-  version: 3.50.0.0.4.pre.r92496.fffd8c22ae6
-  origversion: 3.50.0.0.4.pre.r92496.fffd8c22ae6-1
+  version: 3.50.0.0.4.pre.r92527.b98afb52407
+  origversion: 3.50.0.0.4.pre.r92527.b98afb52407-1
   status: rolling
   summary: A new mobile app SDK to help developers and designers build modern mobile apps for iOS and Android.
   maintainers:
@@ -300,7 +300,7 @@
   visiblename: flutter
   version: 3.47.9
   origversion: null
-  status: newest
+  status: outdated
   summary: Flutter is Google's UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.
   licenses:
     - BSD-3
@@ -339,7 +339,7 @@
   visiblename: flutter
   version: 3.47.9
   origversion: 3.47.9+ds1-2
-  status: newest
+  status: outdated
   maintainers:
     - emfox@debian.org
   categories:
@@ -359,7 +359,7 @@
   visiblename: flutter
   version: 3.47.9
   origversion: 3.47.9+ds1-2
-  status: newest
+  status: outdated
   maintainers:
     - emfox@debian.org
   categories:
@@ -367,7 +367,7 @@
 - repo: homebrew_casks
   srcname: flutter
   visiblename: Flutter SDK
-  version: 3.47.9
+  version: 3.50.0
   origversion: null
   status: newest
   summary: UI toolkit for building applications for mobile, web and desktop
@@ -375,7 +375,7 @@
   subrepo: extras
   binname: flutter
   visiblename: flutter
-  version: 3.47.9
+  version: 3.50.0
   origversion: null
   status: newest
   licenses:
@@ -383,7 +383,7 @@
 - repo: t2
   srcname: flutter
   visiblename: flutter
-  version: 3.47.9
+  version: 3.50.0
   origversion: null
   status: newest
   summary: Framework and tools for building cross-platform applications
@@ -399,7 +399,7 @@
   visiblename: flutter
   version: 3.47.9
   origversion: 3.47.9-1.fcrawhide
-  status: newest
+  status: outdated
   summary: SDK for crafting beautiful, fast user experiences from a single codebase
   licenses:
     - BSD-3-Clause
@@ -411,7 +411,7 @@
   visiblename: flutter
   version: 3.47.9
   origversion: 3.47.9-1.fcrawhide
-  status: newest
+  status: outdated
   summary: SDK for crafting beautiful, fast user experiences from a single codebase
   licenses:
     - BSD-3-Clause
@@ -432,7 +432,7 @@
   visiblename: flutter
   version: 3.47.9
   origversion: 3.47.9+ds1-2
-  status: newest
+  status: outdated
   maintainers:
     - emfox@debian.org
   categories:
