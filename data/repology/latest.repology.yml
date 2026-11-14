@@ -278,8 +278,8 @@
   srcname: flutter-git
   binname: flutter-git
   visiblename: flutter-git
-  version: 3.51.0.0.1.pre.r92556.9c427b5d7b1
-  origversion: 3.51.0.0.1.pre.r92556.9c427b5d7b1-1
+  version: 3.51.0.0.1.pre.r92583.bd400446b73
+  origversion: 3.51.0.0.1.pre.r92583.bd400446b73-1
   status: rolling
   summary: A new mobile app SDK to help developers and designers build modern mobile apps for iOS and Android.
   maintainers:
@@ -449,6 +449,20 @@
 - repo: alpine_edge
   subrepo: testing
   srcname: flutter
+  binname: flutter-desktop
+  visiblename: flutter-desktop
+  version: 3.38.4
+  origversion: 3.38.4-r3
+  status: outdated
+  summary: Cross-platform apps, built in Omelas (release linux desktop target)
+  maintainers:
+    - lauren@selfisekai.rocks
+  licenses:
+    - BSD-3-Clause
+  vulnerable: true
+- repo: alpine_edge
+  subrepo: testing
+  srcname: flutter
   binname: flutter
   visiblename: flutter
   version: 3.38.4
@@ -469,20 +483,6 @@
   origversion: 3.38.4-r3
   status: outdated
   summary: Cross-platform apps, built in Omelas (parts common to all targets)
-  maintainers:
-    - lauren@selfisekai.rocks
-  licenses:
-    - BSD-3-Clause
-  vulnerable: true
-- repo: alpine_edge
-  subrepo: testing
-  srcname: flutter
-  binname: flutter-desktop
-  visiblename: flutter-desktop
-  version: 3.38.4
-  origversion: 3.38.4-r3
-  status: outdated
-  summary: Cross-platform apps, built in Omelas (release linux desktop target)
   maintainers:
     - lauren@selfisekai.rocks
   licenses:
