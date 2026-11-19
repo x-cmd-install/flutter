@@ -1,3 +1,52 @@
+- repo: aur
+  srcname: flutter
+  binname: flutter-target-web
+  visiblename: flutter-target-web
+  version: 3.41.2
+  origversion: 3.41.2-3
+  status: outdated
+  summary: Flutter SDK component - web target files
+  maintainers:
+    - withthebraid@aur
+  licenses:
+    - BSD
+    - CCPL
+    - custom
+- repo: aur
+  srcname: flutter
+  binname: flutter-target-linux
+  visiblename: flutter-target-linux
+  version: 3.41.2
+  origversion: 3.41.2-3
+  status: outdated
+  summary: Flutter SDK component - linux target files
+  maintainers:
+    - withthebraid@aur
+  licenses:
+    - BSD
+    - CCPL
+    - custom
+- repo: chocolatey
+  binname: flutter
+  visiblename: Flutter
+  version: 3.47.9
+  origversion: null
+  status: outdated
+  summary: Build beautiful native apps in record time
+- repo: aur
+  srcname: flutter
+  binname: flutter-target-android
+  visiblename: flutter-target-android
+  version: 3.41.2
+  origversion: 3.41.2-3
+  status: outdated
+  summary: Flutter SDK component - android target files
+  maintainers:
+    - withthebraid@aur
+  licenses:
+    - BSD
+    - CCPL
+    - custom
 - repo: altsisyphus
   srcname: flutter
   binnames:
@@ -12,8 +61,8 @@
     - flutter-tool
     - flutter-tool-developer
   visiblename: flutter
-  version: 3.41.9
-  origversion: 3.41.9-alt1
+  version: 3.44.9
+  origversion: 3.44.9-alt1
   status: outdated
   summary: Flutter framework
   maintainers:
@@ -86,48 +135,6 @@
   origversion: 3.41.2-3
   status: outdated
   summary: Flutter SDK component - CLI tool (for application development)
-  maintainers:
-    - withthebraid@aur
-  licenses:
-    - BSD
-    - CCPL
-    - custom
-- repo: aur
-  srcname: flutter
-  binname: flutter-target-linux
-  visiblename: flutter-target-linux
-  version: 3.41.2
-  origversion: 3.41.2-3
-  status: outdated
-  summary: Flutter SDK component - linux target files
-  maintainers:
-    - withthebraid@aur
-  licenses:
-    - BSD
-    - CCPL
-    - custom
-- repo: aur
-  srcname: flutter
-  binname: flutter-target-android
-  visiblename: flutter-target-android
-  version: 3.41.2
-  origversion: 3.41.2-3
-  status: outdated
-  summary: Flutter SDK component - android target files
-  maintainers:
-    - withthebraid@aur
-  licenses:
-    - BSD
-    - CCPL
-    - custom
-- repo: aur
-  srcname: flutter
-  binname: flutter-target-web
-  visiblename: flutter-target-web
-  version: 3.41.2
-  origversion: 3.41.2-3
-  status: outdated
-  summary: Flutter SDK component - web target files
   maintainers:
     - withthebraid@aur
   licenses:
@@ -278,8 +285,8 @@
   srcname: flutter-git
   binname: flutter-git
   visiblename: flutter-git
-  version: 3.51.0.0.1.pre.r92616.a8a9f341b00
-  origversion: 3.51.0.0.1.pre.r92616.a8a9f341b00-1
+  version: 3.51.0.0.1.pre.r92656.4d19bda07ae
+  origversion: 3.51.0.0.1.pre.r92656.4d19bda07ae-1
   status: rolling
   summary: A new mobile app SDK to help developers and designers build modern mobile apps for iOS and Android.
   maintainers:
@@ -288,13 +295,6 @@
     - BSD
     - CCPL
     - custom
-- repo: chocolatey
-  binname: flutter
-  visiblename: Flutter
-  version: 3.47.9
-  origversion: null
-  status: outdated
-  summary: Build beautiful native apps in record time
 - repo: chromebrew
   srcname: flutter
   visiblename: flutter
@@ -417,8 +417,8 @@
     - BSD-3-Clause
   categories:
     - Development/Building
-- repo: ubuntu_27_04_proposed
-  subrepo: tenacious-proposed/universe
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
   srcname: flutter
   binnames:
     - flutter
@@ -440,9 +440,9 @@
 - repo: wikidata
   srcname: Q39072787
   visiblename: Flutter
-  version: 3.47.0
+  version: 3.50.0
   origversion: null
-  status: outdated
+  status: newest
   summary: open-source UI software development kit for cross-platform applications
   licenses:
     - 3-clause BSD License
