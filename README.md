@@ -14,14 +14,14 @@ x install flutter
 
 ## Code insight
 
-Total: **2,773,824** lines of code across **10788** files in the top 5 languages.
+Total: **2,777,529** lines of code across **10798** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Dart | 2,040,244 | 340,437 | 284,286 | 6632 |
-| Cpp | 394,353 | 39,140 | 73,042 | 1834 |
-| CHeader | 95,174 | 52,317 | 33,589 | 1779 |
-| ObjectiveCpp | 64,534 | 7,432 | 12,297 | 222 |
+| Dart | 2,041,087 | 340,514 | 284,434 | 6636 |
+| Cpp | 396,410 | 39,337 | 73,320 | 1837 |
+| CHeader | 95,596 | 52,502 | 33,730 | 1782 |
+| ObjectiveCpp | 64,812 | 7,446 | 12,330 | 222 |
 | Java | 60,564 | 15,947 | 10,422 | 321 |
 
 ## OpenSSF Scorecard
@@ -43,30 +43,30 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `3.19.0-0.1.pre` (2024-01-11)
-- **Last commit**: 2026-11-19
+- **Last commit**: 2026-11-20
 
 ## Popularity
 
-- **Stars**: 181,269 · **Forks**: 32,155 · **Open issues**: 117,121 · **Contributors**: 2,161
+- **Stars**: 181,307 · **Forks**: 32,160 · **Open issues**: 117,150 · **Contributors**: 2,162
 
 ## Totals (cumulative)
 
-- **Releases**: 7 · **Merged PRs**: 51416 · **Open PRs**: 783 · **Closed issues**: 104310 · **Open issues**: 12811 · **Commits**: 92683
+- **Releases**: 7 · **Merged PRs**: 51450 · **Open PRs**: 778 · **Closed issues**: 104334 · **Open issues**: 12816 · **Commits**: 92717
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-20 | 0 | 479 | 353 | 269 | 427 | 550 |
-| last60d | 2026-09-20 | 0 | 995 | 519 | 630 | 723 | 1146 |
-| 90d | 2026-08-21 | 0 | 1517 | 627 | 979 | 905 | 1714 |
-| last180d | 2026-05-23 | 0 | 3062 | 727 | 2114 | 1367 | 3325 |
-| 360d | 2025-11-24 | 0 | 5949 | 779 | 4349 | 2004 | 6475 |
-| last720d | 2024-11-29 | 0 | 11424 | 783 | 12690 | 3529 | 10928 |
+| 30d | 2026-10-21 | 0 | 478 | 345 | 258 | 424 | 590 |
+| last60d | 2026-09-21 | 0 | 1010 | 518 | 630 | 723 | 1186 |
+| 90d | 2026-08-22 | 0 | 1539 | 621 | 994 | 913 | 1754 |
+| last180d | 2026-05-24 | 0 | 3093 | 722 | 2129 | 1371 | 3365 |
+| 360d | 2025-11-25 | 0 | 5971 | 774 | 4346 | 2008 | 6515 |
+| last720d | 2024-11-30 | 0 | 11458 | 778 | 12699 | 3533 | 10960 |
 
 ## Distribution status
 
-Reported by **54** distros on [repology.org](https://repology.org/project/flutter). **8** are ✅ on the latest upstream release, **42** are ⚠️ on an older version.
+Reported by **54** distros on [repology.org](https://repology.org/project/flutter). **2** are ✅ on the latest upstream release, **48** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -82,4 +82,4 @@ Install metadata for flutter lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261119.yml` · 2026-11-19T07:37:13Z._
+_Snapshot: `data/card/261120.yml` · 2026-11-20T07:25:52Z._
